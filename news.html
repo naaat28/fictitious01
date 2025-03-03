@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>ふくしま整形外科</title>
+    <meta name="description" content="ページの説明" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <link rel="icon" href="/img/favicon.ico" type="image/png" />
+
+    <meta name="robots" content="noindex" />
+    <meta property="og:site_name" content="ふくしま整形外科" />
+    <meta property="og:url" content="URL" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ふくしま整形外科" />
+    <meta property="og:description" content="ページの説明" />
+    <meta property="og:image" content="URL" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="fb:app_id" content="AppID" />
+    <meta name="twitter:card" content="summary_large_image or summary" />
+    <meta name="twitter:site" content="@twitter_id" />
+    <meta name="twitter:description" content="ページの説明" />
+    <meta name="twitter:image:src" content="URL" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+
+  </head>
+
+  <body class="js_body" id="top">
+    <header class="l_header">
+      <div class="l_header-inner">
+        <h1 class="l_header-logo">
+          <a href="index.html" class="l_header-logo_link"
+            ><span class="u_accent">ふ</span>くしま<br
+              class="u_logo-br"
+            />整形外科</a
+          >
+        </h1>
+
+        <ul class="m_sp_nav-list">
+          <li class="m_sp_nav-item time js_modalOpen" data-modal-target="modal">
+            <a href="" class="">
+              <span class="m_sp_nav-item__title">診療時間</span>
+              <div class="m_sp_nav-item_img-wrapper">
+                <img
+                  src="img/sp_時計.svg"
+                  alt=""
+                  class="m_sp_nav-item_img"
+                  width="20"
+                  height="20"
+                />
+              </div>
+            </a>
+          </li>
+
+          <li class="m_sp_nav-item tel">
+            <a href="tel:0000000000" class="">
+              <span class="m_sp_nav-item__title tel">お問い合わせ</span>
+              <div class="m_sp_nav-item_img-wrapper">
+                <img
+                  src="img/sp_電話.svg"
+                  alt=""
+                  class="m_sp_nav-item_img"
+                  width="20"
+                  height="21"
+                />
+              </div>
+            </a>
+          </li>
+
+          <li class="m_sp_nav-item ham">
+            <button class="m_hamburger js_hamburger">
+              <span class="m_hamburger_bar"></span>
+              <span class="m_hamburger_bar"></span>
+              <span class="m_hamburger_bar"></span>
+            </button>
+          </li>
+        </ul>
+
+        <div class="l_header-contents">
+          <nav class="l_header-nav js_nav">
+            <ul class="l_header-nav_list">
+              <li class="l_header-nav_item">
+                <a href="index.html#top" class="l_header-nav_link js_nav_link"
+                  >トップ</a
+                >
+              </li>
+              <li class="l_header-nav_item">
+                <a
+                  href="index.html#top_news"
+                  class="l_header-nav_link js_nav_link"
+                  >お知らせ</a
+                >
+              </li>
+              <li class="l_header-nav_item">
+                <a
+                  href="index.html#top_medicalInfo"
+                  class="l_header-nav_link js_nav_link"
+                  >診療案内</a
+                >
+              </li>
+              <li class="l_header-nav_item">
+                <a
+                  href="index.html#top_clinicInfo"
+                  class="l_header-nav_link js_nav_link"
+                  >当院について</a
+                >
+              </li>
+              <li class="l_header-nav_item">
+                <a
+                  href="index.html#top_faq"
+                  class="l_header-nav_link js_nav_link"
+                  >よくある質問</a
+                >
+              </li>
+            </ul>
+          </nav>
+
+          <div class="l_header-icon_img-wrapper">
+            <a href="tel:0000000000" class="u_sp-only">
+              <img
+                src="img/pc_電話.svg"
+                alt=""
+                class="l_header-icon_img"
+                width="46"
+                height="45"
+              />
+              <span class="l_tel-number">000-000-0000</span>
+            </a>
+          </div>
+          <!-- /.l_header-icon -->
+        </div>
+        <!-- /.l_header-contents -->
+      </div>
+
+      <div class="l_header-info u_sp-only js_info">
+        <p class="l_header-info_title">診療時間</p>
+
+        <div class="m_info__pc header">
+          <table class="m_info-table">
+            <tr class="m_info-table_week__tr">
+              <th class="m_info-table_week__th">診療時間</th>
+              <td class="m_info-table_week__td">月</td>
+              <td class="m_info-table_week__td">火</td>
+              <td class="m_info-table_week__td">水</td>
+              <td class="m_info-table_week__td">木</td>
+              <td class="m_info-table_week__td">金</td>
+              <td class="m_info-table_week__td">土</td>
+              <td class="m_info-table_week__td">日/祝</td>
+            </tr>
+            <tr class="m_info-table_time__tr">
+              <th class="m_info-table_time__th">09:00 - 12:30</th>
+              <td class="m_info-table_time__td">●</td>
+              <td class="m_info-table_time__td">●</td>
+              <td class="m_info-table_time__td">ー</td>
+              <td class="m_info-table_time__td">●</td>
+              <td class="m_info-table_time__td">●</td>
+              <td class="m_info-table_time__td">●</td>
+              <td class="m_info-table_time__td">ー</td>
+            </tr>
+            <tr class="m_info-table_time__tr">
+              <th class="m_info-table_time__th">14:30 - 18:00</th>
+              <td class="m_info-table_time__td">●</td>
+              <td class="m_info-table_time__td">●</td>
+              <td class="m_info-table_time__td">●</td>
+              <td class="m_info-table_time__td">ー</td>
+              <td class="m_info-table_time__td">●</td>
+              <td class="m_info-table_time__td">ー</td>
+              <td class="m_info-table_time__td">ー</td>
+            </tr>
+          </table>
+
+          <dl class="m_rp">
+            <dt class="m_rp-hd">受付時間</dt>
+            <dd class="m_rp-note">※予約制ではなく受付順となります。</dd>
+            <dt class="m_rp_time">午前 08:30 - 12:20</dt>
+            <dd class="m_rp_new">新患は12:00まで</dd>
+            <dt class="m_rp_time">午後 14:00 - 17:50</dt>
+            <dd class="m_rp_new">新患は17:30まで</dd>
+          </dl>
+        </div>
+        <!-- /.m_info -->
+      </div>
+      <!-- /.l_header-info -->
+    </header>
+
+    <main class="news">
+      <div class="m_single-bg_top"></div>
+      <svg
+        class="m_bg-bottom"
+        viewBox="0 0 1366 129"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M-9 102.544C-9 102.544 351.925 183.354 623.882 61.9129C895.84 -59.5278 1370 61.9129 1370 61.9129V0.515314H-9V102.544Z"
+          fill="#97C978"
+          fill-opacity="0.2"
+        />
+      </svg>
+
+      <div class="m_section-inner l_contents">
+        <h2 class="m_section-title">お知らせ</h2>
+        <div class="l_container-sm">
+          <article class="m_article-list">
+            <a href="news05.html" class="m_article-item">
+              <div class="m_article-item_meta">
+                <time class="m_article-item_date" datetime="2024-9-20">
+                  2024.09.20
+                </time>
+                <span class="m_article-item_txt"> 10月の休診日のお知らせ </span>
+              </div>
+            </a>
+          </article>
+          <article class="m_article-list">
+            <a href="news04.html" class="m_article-item">
+              <div class="m_article-item_meta">
+                <time class="m_article-item_date" datetime="2024-08-23">
+                  2024.08.23
+                </time>
+                <span class="m_article-item_txt"> 9月の休診日のお知らせ </span>
+              </div>
+            </a>
+          </article>
+          <article class="m_article-list">
+            <a href="news03.html" class="m_article-item">
+              <div class="m_article-item_meta">
+                <time class="m_article-item_date" datetime="2024-07-15"
+                  >2024.07.15</time
+                >
+                <span class="m_article-item_txt">お盆の休診日のお知らせ</span>
+              </div>
+            </a>
+          </article>
+          <article class="m_article-list">
+            <a href="news02.html" class="m_article-item">
+              <div class="m_article-item_meta">
+                <time class="m_article-item_date" datetime="2024-04-03">
+                  2024.04.03
+                </time>
+                <span class="m_article-item_txt">
+                  ゴールデンウィークの休診日のお知らせ
+                </span>
+              </div>
+            </a>
+          </article>
+          <article class="m_article-list">
+            <a href="news01.html" class="m_article-item">
+              <div class="m_article-item_meta">
+                <time class="m_article-item_date" datetime="2024-03-01">
+                  2024.03.01
+                </time>
+                <span class="m_article-item_txt">
+                  ふくしま整形外科開業のお知らせ
+                </span>
+              </div>
+            </a>
+          </article>
+        </div>
+        <!-- /.l_container-sm -->
+      </div>
+      <!-- /.m_section-inner -->
+    </main>
+
+    <footer class="l_footer">
+      <div class="l_contents">
+        <svg
+          class="m_bg-top"
+          viewBox="0 0 1366 127"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1371 26.6967C1371 26.6967 1011.65 -52.4676 740.884 66.5C470.115 185.468 -1.96951 66.5 -1.96951 66.5V126.647H1371V26.6967Z"
+            fill="#97C978"
+            fill-opacity="0.2"
+          />
+        </svg>
+
+        <div class="l_footer_contents">
+          <div class="l_container">
+            <div class="l_footer-inner">
+              <div class="m_access-map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3154.7048437836393!2d140.4682317!3d37.7500681!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8a85cad26487f5%3A0x344387912e394d27!2z56aP5bO255yM5bqB!5e0!3m2!1sja!2sjp!4v1695648962809!5m2!1sja!2sjp"
+                  class="m_access-map_iframe"
+                  width="600"
+                  height="450"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+              <!-- /.m_access-map -->
+
+              <div class="l_footer-wrap">
+                <p class="l_footer-clName">ふくしま整形外科</p>
+                <p class="l_footer-address">〒123-456 福島県福島市○○町××-×</p>
+                <p class="l_footer-tel">000-000-0000</p>
+
+                <div class="l_footer-info" id="info">
+                  <div class="m_info">
+                    <table class="m_info-table">
+                      <tr class="m_info-table_week__tr">
+                        <th class="m_info-table_week__th">診療時間</th>
+                        <td class="m_info-table_week__td">月</td>
+                        <td class="m_info-table_week__td">火</td>
+                        <td class="m_info-table_week__td">水</td>
+                        <td class="m_info-table_week__td">木</td>
+                        <td class="m_info-table_week__td">金</td>
+                        <td class="m_info-table_week__td">土</td>
+                        <td class="m_info-table_week__td">日/祝</td>
+                      </tr>
+                      <tr class="m_info-table_time__tr">
+                        <th class="m_info-table_time__th">09:00 - 12:30</th>
+                        <td class="m_info-table_time__td">●</td>
+                        <td class="m_info-table_time__td">●</td>
+                        <td class="m_info-table_time__td">ー</td>
+                        <td class="m_info-table_time__td">●</td>
+                        <td class="m_info-table_time__td">●</td>
+                        <td class="m_info-table_time__td">●</td>
+                        <td class="m_info-table_time__td">ー</td>
+                      </tr>
+                      <tr class="m_info-table_time__tr">
+                        <th class="m_info-table_time__th">14:30 - 18:00</th>
+                        <td class="m_info-table_time__td">●</td>
+                        <td class="m_info-table_time__td">●</td>
+                        <td class="m_info-table_time__td">●</td>
+                        <td class="m_info-table_time__td">ー</td>
+                        <td class="m_info-table_time__td">●</td>
+                        <td class="m_info-table_time__td">ー</td>
+                        <td class="m_info-table_time__td">ー</td>
+                      </tr>
+                    </table>
+
+                    <dl class="m_rp">
+                      <dt class="m_rp-hd">受付時間</dt>
+                      <dd class="m_rp-note">
+                        ※予約制ではなく受付順となります。
+                      </dd>
+                      <dt class="m_rp_time">午前 08:30 - 12:20</dt>
+                      <dd class="m_rp_new">新患は12:00まで</dd>
+                      <dt class="m_rp_time">午後 14:00 - 17:50</dt>
+                      <dd class="m_rp_new">新患は17:30まで</dd>
+                    </dl>
+                  </div>
+                  <!-- /.m_info -->
+                </div>
+                <!-- /.l_footer_info -->
+              </div>
+              <!-- /.m_footer-contents -->
+            </div>
+            <!-- /.m_footer-inner -->
+          </div>
+          <!-- /.l_container -->
+          <p class="l_footer-copyright">
+            <small class="l_footer-copyright_txt"
+              >&copy; ふくしま整形外科</small
+            >
+          </p>
+        </div>
+        <!-- /.l_contents -->
+      </div>
+    </footer>
+
+    <div class="m_modal js_modal" id="modal">
+      <div class="m_modal-inner">
+        <div class="m_modal-contents">
+          <div class="m_info__modal m_modal_info__sp">
+            <table class="m_info-table">
+              <tr class="m_info-table_week__tr">
+                <th class="m_info-table_week__th">診療時間</th>
+                <td class="m_info-table_week__td">月</td>
+                <td class="m_info-table_week__td">火</td>
+                <td class="m_info-table_week__td">水</td>
+                <td class="m_info-table_week__td">木</td>
+                <td class="m_info-table_week__td">金</td>
+                <td class="m_info-table_week__td">土</td>
+                <td class="m_info-table_week__td">日/祝</td>
+              </tr>
+              <tr class="m_info-table_time__tr">
+                <th class="m_info-table_time__th">09:00 - 12:30</th>
+                <td class="m_info-table_time__td">●</td>
+                <td class="m_info-table_time__td">●</td>
+                <td class="m_info-table_time__td">ー</td>
+                <td class="m_info-table_time__td">●</td>
+                <td class="m_info-table_time__td">●</td>
+                <td class="m_info-table_time__td">●</td>
+                <td class="m_info-table_time__td">ー</td>
+              </tr>
+              <tr class="m_info-table_time__tr">
+                <th class="m_info-table_time__th">14:30 - 18:00</th>
+                <td class="m_info-table_time__td">●</td>
+                <td class="m_info-table_time__td">●</td>
+                <td class="m_info-table_time__td">●</td>
+                <td class="m_info-table_time__td">ー</td>
+                <td class="m_info-table_time__td">●</td>
+                <td class="m_info-table_time__td">ー</td>
+                <td class="m_info-table_time__td">ー</td>
+              </tr>
+            </table>
+
+            <dl class="m_rp">
+              <dt class="m_rp-hd">受付時間</dt>
+              <dd class="m_rp-note">※予約制ではなく受付順となります。</dd>
+              <dt class="m_rp_time">午前 08:30 - 12:20</dt>
+              <dd class="m_rp_new">新患は12:00まで</dd>
+              <dt class="m_rp_time">午後 14:00 - 17:50</dt>
+              <dd class="m_rp_new">新患は17:30まで</dd>
+            </dl>
+          </div>
+          <!-- /.m_info__modal -->
+        </div>
+        <!-- /.m_modal_contents -->
+      </div>
+      <!-- /.m_modal_inner -->
+    </div>
+    <!-- /.m_modal -->
+
+    <div class="m_page-top">
+      <p class="m_page-top_link">
+        <span class="u_fz">トップ</span><br />へ戻る
+      </p>
+    </div>
+
+    <!-- js -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="js/main.js" defer></script>
+
+  </body>
+</html>
